@@ -9,7 +9,7 @@
     "watch-poll": "mix watch -- --watch-options-poll=1000",
     "hot": "mix watch --hot",
     "production": "mix --production",
-    "rtl": "rtlcss -d \"dist/assets/css\" -e \".rtl.css\" && find . -type f -name '*.rtl.rtl.css' -delete",
+    "rtl": "rtlcss -d dist/assets/css -e .rtl.css && find . -type f -name '*.rtl.rtl.css' -delete",
     "prod-rtl": "mix --production && rtl"
   },
   "author": "zuramai",
